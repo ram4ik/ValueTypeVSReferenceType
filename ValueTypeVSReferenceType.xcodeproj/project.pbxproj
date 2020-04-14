@@ -13,6 +13,8 @@
 		9556464F2445B7F700DBBB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9556464E2445B7F700DBBB6A /* Assets.xcassets */; };
 		955646522445B7F700DBBB6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955646512445B7F700DBBB6A /* Preview Assets.xcassets */; };
 		955646552445B7F700DBBB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955646532445B7F700DBBB6A /* LaunchScreen.storyboard */; };
+		9556465E2445B81D00DBBB6A /* ReferenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9556465D2445B81D00DBBB6A /* ReferenceType.swift */; };
+		955646602445B82B00DBBB6A /* ValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9556465F2445B82B00DBBB6A /* ValueType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		955646512445B7F700DBBB6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		955646542445B7F700DBBB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		955646562445B7F700DBBB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9556465D2445B81D00DBBB6A /* ReferenceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceType.swift; sourceTree = "<group>"; };
+		9556465F2445B82B00DBBB6A /* ValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		9556463C2445B7F300DBBB6A = {
 			isa = PBXGroup;
 			children = (
+				9556465C2445B80A00DBBB6A /* Objects */,
 				955646472445B7F300DBBB6A /* ValueTypeVSReferenceType */,
 				955646462445B7F300DBBB6A /* Products */,
 			);
@@ -73,6 +78,15 @@
 				955646512445B7F700DBBB6A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9556465C2445B80A00DBBB6A /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9556465D2445B81D00DBBB6A /* ReferenceType.swift */,
+				9556465F2445B82B00DBBB6A /* ValueType.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +162,9 @@
 			files = (
 				955646492445B7F400DBBB6A /* AppDelegate.swift in Sources */,
 				9556464B2445B7F400DBBB6A /* SceneDelegate.swift in Sources */,
+				955646602445B82B00DBBB6A /* ValueType.swift in Sources */,
 				9556464D2445B7F400DBBB6A /* ContentView.swift in Sources */,
+				9556465E2445B81D00DBBB6A /* ReferenceType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
